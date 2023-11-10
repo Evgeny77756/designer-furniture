@@ -102,26 +102,3 @@
   width: 490px;
   height: 466px;
 }
-
-.novelty-name {
-  position: absolute;
-  width: 100%;
-  height: 28px;
-  display: flex;
-  bottom: 39px;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-.novelty-price {
-  position: absolute;
-  width: 100%;
-  height: 39px;
-  display: flex;
-  bottom: 0;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  margin-top: 7px;
-}
