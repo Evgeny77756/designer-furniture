@@ -44,6 +44,10 @@ body {
   margin: 0;
 }
 
+.row {
+  display: flex;
+}
+
 a {
   text-decoration: none;
 }
