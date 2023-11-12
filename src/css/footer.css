@@ -1,0 +1,97 @@
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-nav__logo {
+  width: 19.365px;
+  height: 20px;
+}
+
+.footer-nav__link {
+  color: #303032;
+  text-align: center;
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 0%; /* 0px */
+  letter-spacing: 0.7px;
+  margin-left: 60px;
+}
+
+.footer-contact {
+  margin-bottom: 30px;
+}
+
+.footer-contact__tel {
+  margin-right: 50px;
+  align-items: center;
+}
+
+.footer-contact__tel__logo {
+  width: 15.067px;
+  height: 15.067px;
+  margin-right: 7.33px;
+}
+
+.footer-contact__tel__logo svg {
+  transform: rotate(17.271deg);
+}
+
+.footer-contact__tel__num {
+  color: #303032;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-contact__mail {
+  align-items: center;
+}
+
+.footer-contact__mail__logo {
+  width: 15px;
+  height: 17px;
+  margin-right: 7.33px;
+}
+
+.footer-contact__mail__num {
+  color: #303032;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-line {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.footer-line svg {
+  width: 100%;
+}
+
+.footer-line > svg path {
+  width: 100%;
+}
+
+.footer-footer {
+  display: flex;
+  justify-content: end;
+}
+
+.footer-footer__text {
+  width: 392px;
+  height: 13px;
+  opacity: 0.2;
+  color: #000;
+  text-align: center;
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 0%;
+  margin-bottom: 10px;
+}
