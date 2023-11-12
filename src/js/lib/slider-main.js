@@ -10,10 +10,12 @@ function mainSlider() {
       }
 
       mySwiper = new Swiper('.main-screen__slider', {
-        spaceBetween: 10,
+        // spaceBetween: 10,
+
         pagination: {
           el: '.main-screen__slider-pagination',
           type: 'fraction',
+          clickable: true,
         },
 
         scrollbar: {
@@ -27,6 +29,11 @@ function mainSlider() {
       }
 
       mySwiper = new Swiper('.main-screen__slider', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
         pagination: {
           el: '.main-screen__slider-pagination',
           type: 'bullets',
