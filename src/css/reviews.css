@@ -1,0 +1,66 @@
+.reviewrs {
+  margin-top: 102px;
+}
+
+.reviewrs-container {
+  width: 800px;
+  margin: auto;
+}
+
+.reviewrs-container-slide {
+  width: 553px;
+  margin: auto;
+  margin-top: 102px;
+}
+
+.reviewrs__image {
+  width: 152px;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.reviewrs__image img {
+  border-radius: 50%;
+}
+
+.swiper-button-prev__img {
+  width: 35.99px;
+  height: 36px;
+}
+
+.reviewrs-info {
+  text-align: center;
+}
+
+.reviewrs-name {
+  color: #444348;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 154.358%;
+}
+
+.reviewrs-function {
+  color: #444348;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 154.358%;
+}
+
+.reviewer-reviewer {
+  color: #444348;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 154.358%;
+}
+
+.main-screen__slider-pagination {
+  text-align: center;
+
+}
