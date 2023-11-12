@@ -166,8 +166,6 @@
 .swiper-button-next {
   position: absolute;
   top: 50%;
-  width: calc(var(--swiper-navigation-size) / 44 * 27);
-  height: var(--swiper-navigation-size);
   margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
   z-index: 10;
   cursor: pointer;
@@ -188,9 +186,7 @@
 .swiper-button-next::after {
   font-family: swiper-icons;
   font-size: var(--swiper-navigation-size);
-  text-transform: none !important;
   letter-spacing: 0;
-  text-transform: none;
   font-variant: initial;
 }
 
@@ -202,7 +198,7 @@
 
 .swiper-button-prev::after,
 .swiper-container-rtl .swiper-button-next::after {
-  content: 'prev';
+  content: '';
 }
 
 .swiper-button-next,
@@ -213,7 +209,7 @@
 
 .swiper-button-next::after,
 .swiper-container-rtl .swiper-button-prev::after {
-  content: 'next';
+  content: '';
 }
 
 .swiper-button-prev.swiper-button-white,
@@ -306,8 +302,6 @@ button.swiper-pagination-bullet {
   margin: 0;
   padding: 0;
   box-shadow: none;
-  appearance: none;
-  appearance: none;
   appearance: none;
 }
 
@@ -547,7 +541,6 @@ button.swiper-pagination-bullet {
 .swiper-container-cube .swiper-slide {
   pointer-events: none;
   backface-visibility: hidden;
-  backface-visibility: hidden;
   z-index: 1;
   visibility: hidden;
   transform-origin: 0 0;
@@ -582,7 +575,6 @@ button.swiper-pagination-bullet {
 .swiper-container-cube .swiper-slide-shadow-right {
   z-index: 0;
   backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 .swiper-container-cube .swiper-cube-shadow {
@@ -594,7 +586,6 @@ button.swiper-pagination-bullet {
   background: #000;
   opacity: 0.6;
   filter: blur(50px);
-  filter: blur(50px);
   z-index: 0;
 }
 
@@ -604,7 +595,6 @@ button.swiper-pagination-bullet {
 
 .swiper-container-flip .swiper-slide {
   pointer-events: none;
-  backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 1;
 }
@@ -623,6 +613,5 @@ button.swiper-pagination-bullet {
 .swiper-container-flip .swiper-slide-shadow-left,
 .swiper-container-flip .swiper-slide-shadow-right {
   z-index: 0;
-  backface-visibility: hidden;
   backface-visibility: hidden;
 }
