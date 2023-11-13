@@ -1,0 +1,100 @@
+.last-chance {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.last-chance::before {
+  content: '';
+  position: absolute;
+  width: 815px;
+  height: 545px;
+  background: #faece9;
+  z-index: -10;
+  margin-top: -73px;
+  margin-left: -153px;
+}
+
+.last-chance__block-item {
+  position: relative;
+  background: #fff;
+  margin-top: 25px;
+  margin-right: 31px;
+  width: 209px;
+  height: 355px;
+}
+
+.last-chance__block-item:last-child() {
+  margin-right: 0;
+}
+
+.last-chance__block-item-info {
+  position: absolute;
+  top: 26px;
+  height: 40px;
+  margin: auto;
+}
+
+.last-chance__block-item-info .row {
+  align-items: baseline;
+}
+
+.last-chance__block-item-info-title {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
+  height: 29px;
+}
+
+.last-chance__block-item-info-price {
+  color: #303032;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 25px;
+  margin-right: 6px;
+}
+
+.last-chance__block-item-info-nonprice {
+  color: #979798;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+
+.last-chance__block-item-img {
+  width: 209px;
+  height: 252px;
+  margin-top: 103px;
+}
+
+.last-chance__slider .swiper-slide {
+  top: 25px;
+}
+
+.last-chance__slider-pagination {
+  position: absolute;
+  top: 10px;
+}
+
+.last-chance__slider .swiper-pagination-bullets .swiper-pagination-bullet {
+  display: inline;
+  border-radius: 0;
+  margin-right: 50px;
+  background-color: transparent;
+}
+
+.last-chance__slider .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  text-decoration: underline;
+}
+
+.last-chance__slider .swiper-pagination {
+  text-align: left;
+}
