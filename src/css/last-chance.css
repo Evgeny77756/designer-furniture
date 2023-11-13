@@ -1,6 +1,11 @@
 .last-chance {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
+}
+
+.last-chance__slider {
+  height: 468px;
+  /* overflow: visible; */
 }
 
 .last-chance::before {
@@ -9,7 +14,6 @@
   width: 815px;
   height: 545px;
   background: #faece9;
-  z-index: -10;
   margin-top: -73px;
   margin-left: -153px;
 }
@@ -20,8 +24,59 @@
   margin-top: 25px;
   margin-right: 31px;
   width: 209px;
-  height: 355px;
+  cursor: pointer;
 }
+
+.add-block {
+  display: none;
+  width: 100%;
+  height: 58px;
+}
+
+.last-chance__block-item:hover .add-block {
+  display: flex;
+  position: relative;
+  background: #303032;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  text-transform: uppercase;
+}
+
+/*
+.last-chance__block-item::after {
+  content: 'Купить';
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 58px;
+}
+
+.last-chance__block-item:hover.last-chance__block-item::after {
+  display: flex;
+  position: absolute;
+  background: #303032;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  text-transform: uppercase; */
+
+/* top: 0; */
+
+/* } */
 
 .last-chance__block-item:last-child() {
   margin-right: 0;
@@ -70,9 +125,13 @@
 }
 
 .last-chance__block-item-img {
-  width: 209px;
   height: 252px;
   margin-top: 103px;
+}
+
+.last-chance__block-item-img img {
+  position: absolute;
+  height: inherit;
 }
 
 .last-chance__slider .swiper-slide {
@@ -81,7 +140,16 @@
 
 .last-chance__slider-pagination {
   position: absolute;
+  z-index: 10;
   top: 10px;
+}
+
+div.swiper-pagination.last-chance__slider-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 0;
+  z-index: 1;
 }
 
 .last-chance__slider .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -97,4 +165,7 @@
 
 .last-chance__slider .swiper-pagination {
   text-align: left;
+}
+
+.last-chance.container {
 }
