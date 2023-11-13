@@ -60,7 +60,15 @@
   line-height: 154.358%;
 }
 
-.main-screen__slider-pagination {
+.reviewer__slider-pagination {
   text-align: center;
+}
 
+.reviewr__slider .swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: transparent;
+  border: 1px solid #b3b3b3;
+}
+
+.reviewr__slider .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background-color: #b3b3b3;
 }
