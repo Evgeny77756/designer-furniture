@@ -32,6 +32,13 @@
           <li class="user-nav__item user-nav__item--cart">
             <a href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
           </li>
+          <li class="user-nav__item">
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </li>
         </ul>
       </div>
     </header>
@@ -125,7 +132,7 @@
       <section class="novelty">
         <div class="container">
           <div class="row">
-            <div class="novelty-left row">
+            <div class="novelty-left">
               <div class="novelty-left__item">
                 <h3 class="novelty-title">новинки</h3>
               </div>
@@ -380,16 +387,19 @@
                   <img src="/src/img/chair-messi-desktop.png" alt="slide" />
                 </div>
                 <div class="add-block">купить</div>
-
               </div>
             </div>
             <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
           </div>
           <div class="swiper-pagination last-chance__slider-pagination"></div>
+
         </div>
       </section>
       <footer class="footer container">
+        <div class="footer-nav__logo-mobile" style="display: none">
+          <img src="/src/img/logo.svg" alt="logo" />
+        </div>
         <div class="footer-nav">
           <div class="footer-nav__logo">
             <img src="/src/img/logo.svg" alt="logo" />
@@ -419,7 +429,6 @@
           <svg xmlns="http://www.w3.org/2000/svg" height="3" viewBox="0 0 1162 3" fill="none">
             <path d="M0 1.99316L1162 1" stroke="black" stroke-opacity="0.2" />
           </svg>
-          <!-- <img src="" alt="line" class="footer-line__img"> -->
         </div>
         <div class="footer-footer">
           <p class="footer-footer__text">© 2018 «Callium» — Сайт по продаже дизайнерской мебели. Все права защищены.</p>
@@ -427,6 +436,7 @@
       </footer>
     </main>
 
+    <script src="src/js/lib/burger.js"></script>
     <script src="src/js/vendor/swiper.js"></script>
     <script src="src/js/lib/slider-main.js"></script>
     <script src="src/js/lib/slider-reviewr.js"></script>
