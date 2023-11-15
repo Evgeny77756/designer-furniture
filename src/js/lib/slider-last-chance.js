@@ -11,15 +11,21 @@ function mainSlider() {
 
       mySwiper = new Swiper('.last-chance__slider', {
         spaceBetween: 10,
+        slidesPerView: 1,
 
         pagination: {
           el: '.last-chance__slider-pagination',
-          type: 'fraction',
+          type: 'bullets',
           clickable: true,
+          renderBullet: function (index, className) {
+            var titles = ['Стулья', 'Диваны', 'Кресла']
+            return '<span class="' + className + '">' + titles[index] + '</span>'
+          },
         },
 
         scrollbar: {
           el: '.last-chance__slider-pagination',
+          // hide: true,
         },
       })
       return
@@ -29,18 +35,18 @@ function mainSlider() {
       }
 
       mySwiper = new Swiper('.last-chance__slider', {
-        // navigation: {
-        //   nextEl: '.swiper-button-next',
-        //   prevEl: '.swiper-button-prev',
-        // },
-
-        pagination: {
-          el: '.last-chance__slider-pagination',
-          type: 'bullets',
-          clickable: true,
-          renderBullet: function (index, className) {
-            var titles = ['Стулья', 'Диваны', 'Кресла']
-            return '<span class="' + className + '">' + titles[index] + '</span>'
+        slidesPerView: 1,
+        breakpoints: {
+          425: {
+            pagination: {
+              el: '.last-chance__slider-pagination',
+              type: 'bullets',
+              clickable: true,
+              renderBullet: function (index, className) {
+                var titles = ['Стулья', 'Диваны', 'Кресла']
+                return '<span class="' + className + '">' + titles[index] + '</span>'
+              },
+            },
           },
         },
       })
